@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://localhost:3306/todsoft_db?useSSL=false
+    username: proxy_todsoftdb
+    password: shield98
+  servlet:
+    multipart:
+      max-file-size: 128KB
+      max-request-size: 128KB
+  #http:
+    #multipart:
+      #enabled: false
